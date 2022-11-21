@@ -1,0 +1,25 @@
+{
+	"name": "shivani",
+	"version": "3.0.0",
+	"description": "Personalized Card",
+	"main": "index.js",
+	"bin": {
+		"shivani": "index.js"
+	},
+	"scripts": {
+		"test": "node index.js",
+		"pub": "npm version major & npm publish"
+	},
+	"dependencies": {
+		"boxen": "^4.2.0",
+		"chalk": "^4.1.0",
+		"clear": "^0.1.0",
+		"cli-spinners": "^2.5.0",
+		"inquirer": "^7.3.2",
+		"open": "^7.0.4",
+		"ora": "^5.1.0",
+		"request": "^2.88.2"
+	},
+	"author": "Shivani R",
+	"license": "ISC"
+}
